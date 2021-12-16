@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: inline-block; 
+     height: 100%; 
+    white-space: nowrap;
+    height: 100%;
+     flex-direction: column;
+    align-items: center;
+    display: flex;
+
+   justify-content: space-evenly;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border-top: 1px solid #687291;
+    font: 40px Tahoma, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex: none;
+}
+div:nth-child(odd) { /*b,d, */
+
+    background-color: #eeeff2;
+}
+div:nth-child(even) { /*a,c,e*/
+
+    background-color: #dfe1e7;
+}
+
+
+
+
+div:nth-last-child(1) { /*f*/
+    border: 4px solid black;
+    background-color: #687291;
+    align-items: center;
+}
